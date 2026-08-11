@@ -3,9 +3,7 @@ name: Build Android APK
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,21 +17,14 @@ jobs:
         with:
           lfs: true
 
-      # 2. 设置 Unity 编辑器（自动下载指定版本）
-      - name: Setup Unity
-        uses: game-ci/unity-setup@v2
-        with:
-          unityVersion: 2022.3.62f1
-
-      # 3. 激活 Unity 许可证（关键步骤）
-      # 这个 action 会自动用 UNITY_EMAIL 和 UNITY_PASSWORD 在线激活
+      # 2. 激活 Unity 许可证
       - name: Activate Unity License
         uses: game-ci/unity-activate@v2
         env:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
 
-      # 4. 构建 Android APK
+      # 3. 构建 Android APK（内置了 unity-setup）
       - name: Build Android
         uses: game-ci/unity-builder@v4
         with:
@@ -41,7 +32,7 @@ jobs:
           unityVersion: 2022.3.62f1
           buildsPath: build
 
-      # 5. 上传 APK 文件
+      # 4. 上传 APK
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
