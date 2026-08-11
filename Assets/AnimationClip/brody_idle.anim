@@ -1,0 +1,1079 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: brody_idle
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.045582194, y: 0.9838797, z: -0.14779249, w: 0.08977977}
+        inSlope: {x: 0.00066421414, y: 4.6710753E-05, z: 0.00039156748, w: -0.00019961548}
+        outSlope: {x: 0.00066421414, y: 4.6710753E-05, z: 0.00039156748, w: -0.00019961548}
+        tangentMode: 0
+      - time: 1.5416667
+        value: {x: 0.051753815, y: 0.98428017, z: -0.1441455, w: 0.08795539}
+        inSlope: {x: -0.016726136, y: -0.0010056505, z: -0.009902189, w: 0.0048696445}
+        outSlope: {x: -0.016726136, y: -0.0010056505, z: -0.009902189, w: 0.0048696445}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.045582194, y: 0.9838797, z: -0.14779249, w: 0.08977977}
+        inSlope: {x: -0.00066421414, y: -4.6710753E-05, z: -0.00039156748, w: 0.00019961548}
+        outSlope: {x: -0.00066421414, y: -4.6710753E-05, z: -0.00039156748, w: 0.00019961548}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.92953014, y: 0.005046137, z: 0.3371271, w: 0.14931066}
+        inSlope: {x: 0.0002590987, y: 0.00047732927, z: 9.086701E-05, w: -0.0018399658}
+        outSlope: {x: 0.0002590987, y: 0.00047732927, z: 9.086701E-05, w: -0.0018399658}
+        tangentMode: 0
+      - time: 1.2500002
+        value: {x: 0.9317862, y: 0.009167702, z: 0.33883157, w: 0.1299371}
+        inSlope: {x: -0.00078535185, y: -0.0010990032, z: -0.0020660185, w: 0.011095598}
+        outSlope: {x: -0.00078535185, y: -0.0010990032, z: -0.0020660185, w: 0.011095598}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.92953014, y: 0.005046137, z: 0.3371271, w: 0.14931066}
+        inSlope: {x: -0.0002590987, y: -0.0004772362, z: -9.086701E-05, w: 0.0018399658}
+        outSlope: {x: -0.0002590987, y: -0.0004772362, z: -9.086701E-05, w: 0.0018399658}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.048199587, y: 0, z: -0, w: 0.99883777}
+        inSlope: {x: -0.001669499, y: 0, z: 0, w: -8.101397E-05}
+        outSlope: {x: -0.001669499, y: 0, z: 0, w: -8.101397E-05}
+        tangentMode: 0
+      - time: 0.9583335
+        value: {x: -0.052110802, y: 0, z: -0, w: 0.9986413}
+        inSlope: {x: 0.008127704, y: 0, z: 0, w: 0.0004248611}
+        outSlope: {x: 0.008127704, y: 0, z: 0, w: 0.0004248611}
+        tangentMode: 0
+      - time: 1.9583337
+        value: {x: -0.049312588, y: 0, z: -0, w: 0.9987834}
+        inSlope: {x: 0.016019586, y: 0, z: 0, w: 0.0007925013}
+        outSlope: {x: 0.016019586, y: 0, z: 0, w: 0.0007925013}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.048199587, y: 0, z: -0, w: 0.99883777}
+        inSlope: {x: 0.001669499, y: 0, z: 0, w: 8.101397E-05}
+        outSlope: {x: 0.001669499, y: 0, z: 0, w: 8.101397E-05}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.47922575, y: -0.0071577383, z: -0.015031966, w: 0.8775338}
+        inSlope: {x: -0.00037660543, y: 0.00023017796, z: 0.00053099246, w: 0.00021603724}
+        outSlope: {x: -0.00037660543, y: 0.00023017796, z: 0.00053099246, w: 0.00021603724}
+        tangentMode: 0
+      - time: 1.4166667
+        value: {x: 0.46863353, y: -0.004546271, z: -0.008377621, w: 0.88334125}
+        inSlope: {x: 0.029763252, y: -0.0045805015, z: -0.012674186, w: -0.015933767}
+        outSlope: {x: 0.029763252, y: -0.0045805015, z: -0.012674186, w: -0.015933767}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.47922575, y: -0.0071577383, z: -0.015031966, w: 0.8775338}
+        inSlope: {x: 0.00037660543, y: -0.000230167, z: -0.0005309815, w: -0.00021603724}
+        outSlope: {x: 0.00037660543, y: -0.000230167, z: -0.0005309815, w: -0.00021603724}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.31561553, y: -0, z: -0, w: 0.94888717}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.31561553, y: -0, z: -0, w: 0.94888717}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L/jToes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.089620404, y: 0.100317344, z: -0.093595244, w: 0.9864809}
+        inSlope: {x: 0.002877273, y: 2.581864E-05, z: 0.0003935746, w: 0.00029559148}
+        outSlope: {x: 0.002877273, y: 2.581864E-05, z: 0.0003935746, w: 0.00029559148}
+        tangentMode: 0
+      - time: 1.2500002
+        value: {x: -0.049272537, y: 0.101230204, z: -0.086651914, w: 0.9898566}
+        inSlope: {x: -0.037401617, y: -0.0013408378, z: -0.00782142, w: -0.002413991}
+        outSlope: {x: -0.037401617, y: -0.0013408378, z: -0.00782142, w: -0.002413991}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.089620404, y: 0.100317344, z: -0.093595244, w: 0.9864809}
+        inSlope: {x: -0.002877273, y: -2.581864E-05, z: -0.0003935746, w: -0.00029559148}
+        outSlope: {x: -0.002877273, y: -2.581864E-05, z: -0.0003935746, w: -0.00029559148}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.23173495, y: 0, z: -0, w: 0.972779}
+        inSlope: {x: -0.0039361073, y: 0, z: 0, w: -0.00093859417}
+        outSlope: {x: -0.0039361073, y: 0, z: 0, w: -0.00093859417}
+        tangentMode: 0
+      - time: 1.1666667
+        value: {x: -0.2862386, y: 0, z: -0, w: 0.9581584}
+        inSlope: {x: 0.028458253, y: 0, z: 0, w: 0.008495812}
+        outSlope: {x: 0.028458253, y: 0, z: 0, w: 0.008495812}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.23173495, y: 0, z: -0, w: 0.972779}
+        inSlope: {x: 0.003935932, y: 0, z: 0, w: 0.00093859417}
+        outSlope: {x: 0.003935932, y: 0, z: 0, w: 0.00093859417}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.58141804, y: 0.015985379, z: 0.036077056, w: 0.8126476}
+        inSlope: {x: 0.0014275974, y: -0.0006122343, z: -0.0012239212, w: -0.0009561107}
+        outSlope: {x: 0.0014275974, y: -0.0006122343, z: -0.0012239212, w: -0.0009561107}
+        tangentMode: 0
+      - time: 1.3333335
+        value: {x: 0.5978858, y: 0.007926817, z: 0.018269142, w: 0.80133396}
+        inSlope: {x: -0.01912304, y: 0.01079434, z: 0.026152516, w: 0.013561223}
+        outSlope: {x: -0.01912304, y: 0.01079434, z: 0.026152516, w: 0.013561223}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.58141804, y: 0.015985379, z: 0.036077056, w: 0.8126476}
+        inSlope: {x: -0.0014275974, y: 0.00061221235, z: 0.0012238773, w: 0.0009561107}
+        outSlope: {x: -0.0014275974, y: 0.00061221235, z: 0.0012238773, w: 0.0009561107}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.31561553, y: -2.2111136E-08, z: -7.3545285E-09, w: 0.94888717}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.31561553, y: -2.2111136E-08, z: -7.3545285E-09, w: 0.94888717}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R/jToes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.024281694, y: -0.20924881, z: 0.04499297, w: 0.97652495}
+        inSlope: {x: 0.0029469042, y: -4.7987996E-06, z: -0.00031124504, w: 8.6429485E-05}
+        outSlope: {x: 0.0029469042, y: -4.7987996E-06, z: -0.00031124504, w: 8.6429485E-05}
+        tangentMode: 0
+      - time: 1.4583335
+        value: {x: 0.024161823, y: -0.20954172, z: 0.03991066, w: 0.97668606}
+        inSlope: {x: -0.09014239, y: 0.0009455663, z: 0.009386596, w: 0.0020356139}
+        outSlope: {x: -0.09014239, y: 0.0009455663, z: 0.009386596, w: 0.0020356139}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.024281694, y: -0.20924881, z: 0.04499297, w: 0.97652495}
+        inSlope: {x: -0.004649227, y: 7.4262803E-06, z: 0.0004911399, w: -0.00013617644}
+        outSlope: {x: -0.004649227, y: 7.4262803E-06, z: 0.0004911399, w: -0.00013617644}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.26184756, y: 0.37610182, z: 0.27146795, w: 0.8463383}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.26184756, y: 0.37610182, z: 0.27146795, w: 0.8463383}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.35838166, y: -0.5989312, z: 0.37084657, w: 0.6126311}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.35838166, y: -0.5989312, z: 0.37084657, w: 0.6126311}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.31680635, y: 0.91136867, z: -0.1625958, w: 0.20640615}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.31680635, y: 0.91136867, z: -0.1625958, w: 0.20640615}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R/jHand_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.21397053, y: 0.94887835, z: -0.21111105, w: 0.096325696}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.21397053, y: 0.94887835, z: -0.21111105, w: 0.096325696}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.30412677, y: 0.6560525, z: 0.35750744, w: 0.5910081}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.30412677, y: 0.6560525, z: 0.35750744, w: 0.5910081}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.43487176, y: 0.54741335, z: 0.37536034, w: 0.6085473}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.43487176, y: 0.54741335, z: 0.37536034, w: 0.6085473}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L/jHand_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: -0.114098355, y: -0.12776871, z: 0.010007871, w: 0.9851683}
+        inSlope: {x: 0.001532622, y: -0.00026579516, z: -0.00019099136, w: 0.00014543104}
+        outSlope: {x: 0.001532622, y: -0.00026579516, z: -0.00019099136, w: 0.00014543104}
+        tangentMode: 0
+      - time: 1.8333335
+        value: {x: -0.11652855, y: -0.12734881, z: 0.010311871, w: 0.98493505}
+        inSlope: {x: 0.016777633, y: -0.0028908793, z: -0.0021066365, w: 0.0016336411}
+        outSlope: {x: 0.016777633, y: -0.0028908793, z: -0.0021066365, w: 0.0016336411}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.114098355, y: -0.12776871, z: 0.010007871, w: 0.9851683}
+        inSlope: {x: 0.00095831684, y: -0.00016598743, z: -0.000119511125, w: 9.0691865E-05}
+        outSlope: {x: 0.00095831684, y: -0.00016598743, z: -0.000119511125, w: 9.0691865E-05}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0.28862956, y: 7.8697666E-17, z: 5.3581895E-17, w: 0.95744085}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.28862956, y: 7.8697666E-17, z: 5.3581895E-17, w: 0.95744085}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead/jAfro_3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: powerups/hoverBoard
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.17545623, y: -0.051436327, z: 0.047112748}
+        inSlope: {x: 0.010037643, y: -0.00089721545, z: -0.0026952045}
+        outSlope: {x: 0.010037643, y: -0.00089721545, z: -0.0026952045}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -0.092989, y: -0.05880785, z: 0.024969006}
+        inSlope: {x: 0.25172448, y: -0.022500746, z: -0.067591764}
+        outSlope: {x: 0.25171152, y: -0.022500614, z: -0.067588806}
+        tangentMode: 0
+      - time: 0.9583335
+        value: {x: -0.003189086, y: -0.06683482, z: 0.0008563196}
+        inSlope: {x: 0.07384286, y: -0.0065994635, z: -0.019827964}
+        outSlope: {x: 0.07384562, y: -0.006600779, z: -0.0198287}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.0008197344, y: -0.06704661, z: 0.00022011156}
+        inSlope: {x: 0.03827115, y: -0.003421285, z: -0.010276399}
+        outSlope: {x: 0.038268823, y: -0.0034198947, z: -0.01027578}
+        tangentMode: 0
+      - time: 1.0416667
+        value: {x: 8.217317E-17, y: -0.06711989, z: 0}
+        inSlope: {x: 3.08009E-08, y: 5.536832E-07, z: -8.909745E-09}
+        outSlope: {x: -4.0995538E-08, y: -5.536832E-07, z: 1.1614317E-08}
+        tangentMode: 0
+      - time: 1.0833335
+        value: {x: -0.0008197348, y: -0.06704661, z: 0.00022011166}
+        inSlope: {x: -0.03826884, y: 0.0034198947, z: 0.010275788}
+        outSlope: {x: -0.038271166, y: 0.003421285, z: 0.01027641}
+        tangentMode: 0
+      - time: 1.375
+        value: {x: -0.042401444, y: -0.063329734, z: 0.011385454}
+        inSlope: {x: -0.21938229, y: 0.019610425, z: 0.0589075}
+        outSlope: {x: -0.21937187, y: 0.019609036, z: 0.058905005}
+        tangentMode: 0
+      - time: 2.0416667
+        value: {x: -0.1746365, y: -0.0515096, z: 0.04689264}
+        inSlope: {x: -0.0382669, y: 0.003420859, z: 0.010275047}
+        outSlope: {x: -0.038269833, y: 0.0034214216, z: 0.010275496}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.17545623, y: -0.051436327, z: 0.047112748}
+        inSlope: {x: -0.010037524, y: 0.00089722057, z: 0.0026952196}
+        outSlope: {x: -0.010037524, y: 0.00089722057, z: 0.0026952196}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.9241944, y: -0.35061282, z: -0.12053774}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 0.9241944, y: -0.35061282, z: -0.12053774}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.4424907E-15, y: 1.8290535, z: -1.3322676E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 2.4424907E-15, y: 1.8290535, z: -1.3322676E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.110223E-16, y: 1.7653341, z: 1.122846E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1.110223E-16, y: 1.7653341, z: 1.122846E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.4543922E-14, y: 0.95285875, z: 5.551115E-16}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1.4543922E-14, y: 0.95285875, z: 5.551115E-16}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L/jToes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.924194, y: -0.35060823, z: -0.12053926}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.924194, y: -0.35060823, z: -0.12053926}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.6653345E-15, y: -1.8290542, z: 3.9187714E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1.6653345E-15, y: -1.8290542, z: 3.9187714E-08}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.0880186E-14, y: -1.7653394, z: -3.5687503E-07}
+        inSlope: {x: 7.1235396E-14, y: 0, z: -5.576329E-09}
+        outSlope: {x: 7.1235396E-14, y: 0, z: -5.576329E-09}
+        tangentMode: 0
+      - time: 0.4583335
+        value: {x: 1.1435297E-14, y: -1.7653393, z: -3.619333E-07}
+        inSlope: {x: 7.993682E-15, y: -7.356903E-06, z: 7.8734956E-08}
+        outSlope: {x: 7.9963984E-15, y: -2.2204545E-14, z: 7.8731674E-08}
+        tangentMode: 0
+      - time: 1.0416667
+        value: {x: 1.498801E-14, y: -1.765339, z: -3.0354312E-07}
+        inSlope: {x: 9.3259115E-15, y: -9.51618E-15, z: -1.7556384E-12}
+        outSlope: {x: 9.326232E-15, y: -2.2204418E-14, z: 1.7556384E-12}
+        tangentMode: 0
+      - time: 1.7916667
+        value: {x: 1.54321E-14, y: -1.7653394, z: -3.6718995E-07}
+        inSlope: {x: 1.7319784E-14, y: -4.75809E-15, z: 1.441884E-08}
+        outSlope: {x: 1.7319442E-14, y: -1.1102209E-14, z: 1.442501E-08}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1.0880186E-14, y: -1.7653394, z: -3.5687503E-07}
+        inSlope: {x: -3.2083297E-14, y: 0, z: 5.5763603E-09}
+        outSlope: {x: -3.2083297E-14, y: 0, z: 5.5763603E-09}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.8857806E-15, y: -0.952859, z: 1.0444953E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -3.8857806E-15, y: -0.952859, z: 1.0444953E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R/jToes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.012246021, y: 0.92078173, z: -0.40360004}
+        inSlope: {x: 3.977645E-05, y: 0.00016472748, z: 0.0007749489}
+        outSlope: {x: 3.977645E-05, y: 0.00016472748, z: 0.0007749489}
+        tangentMode: 0
+      - time: 1.4583335
+        value: {x: -0.011600775, y: 0.92330796, z: -0.390791}
+        inSlope: {x: -0.001183502, y: -0.0043616206, z: -0.023960099}
+        outSlope: {x: -0.0011835226, y: -0.004387122, z: -0.023967525}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.012246021, y: 0.92078173, z: -0.40360004}
+        inSlope: {x: -6.2745225E-05, y: -0.0002593177, z: -0.0012230263}
+        outSlope: {x: -6.2745225E-05, y: -0.0002593177, z: -0.0012230263}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.06901, y: 0.801185, z: 0.012323504}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -1.06901, y: 0.801185, z: 0.012323504}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.1794515, y: 0, z: 1.7763568E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -1.1794515, y: 0, z: 1.7763568E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.3157586, y: 0.036200225, z: -0.0392124}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -1.3157586, y: 0.036200225, z: -0.0392124}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R/jHand_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.0690066, y: 0.80118954, z: 0.012323779}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1.0690066, y: 0.80118954, z: 0.012323779}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.1797465, y: 3.5527137E-15, z: -4.6629367E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -1.1797465, y: 3.5527137E-15, z: -4.6629367E-15}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.323211, y: 0.01405917, z: 0.03186851}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -1.323211, y: 0.01405917, z: 0.03186851}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L/jHand_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.4844425E-09, y: 1.6601053, z: -0.119510025}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -3.4844425E-09, y: 1.6601053, z: -0.119510025}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.111, y: 1.1102635, z: 0.89067996}
+        inSlope: {x: -0.032583274, y: 0.20872341, z: 0.041345425}
+        outSlope: {x: -0.032583274, y: 0.20872341, z: 0.041345425}
+        tangentMode: 0
+      - time: 0.08333349
+        value: {x: -0.1200585, y: 1.1682876, z: 0.9021739}
+        inSlope: {x: -0.16799258, y: 1.0759814, z: 0.2131314}
+        outSlope: {x: -0.16800085, y: 1.0760258, z: 0.21314617}
+        tangentMode: 0
+      - time: 0.20833349
+        value: {x: -0.13673432, y: 1.2750369, z: 0.92331874}
+        inSlope: {x: 0.0025508439, y: 0.057395365, z: 0.015821144}
+        outSlope: {x: 0.0025513514, y: 0.057388425, z: 0.015824726}
+        tangentMode: 0
+      - time: 0.3333335
+        value: {x: -0.122929715, y: 1.1918628, z: 0.9093547}
+        inSlope: {x: 0.13926987, y: -0.96112096, z: -0.16136307}
+        outSlope: {x: 0.13927509, y: -0.961165, z: -0.16137734}
+        tangentMode: 0
+      - time: 0.4583335
+        value: {x: -0.11129484, y: 1.1086886, z: 0.8953906}
+        inSlope: {x: 0.0032920553, y: -0.03729346, z: -0.006264805}
+        outSlope: {x: 0.0032905678, y: -0.03726731, z: -0.006264715}
+        tangentMode: 0
+      - time: 0.79166675
+        value: {x: -0.1348499, y: 1.2627149, z: 0.92125}
+        inSlope: {x: 0.079144694, y: -0.517543, z: -0.086891}
+        outSlope: {x: 0.07914615, y: -0.51754695, z: -0.08689283}
+        tangentMode: 0
+      - time: 1
+        value: {x: -0.11129484, y: 1.1086886, z: 0.8953906}
+        inSlope: {x: 0.0057035675, y: -0.037301034, z: -0.006256598}
+        outSlope: {x: 0.005702046, y: -0.037298296, z: -0.006256437}
+        tangentMode: 0
+      - time: 1.2916667
+        value: {x: -0.13673432, y: 1.2750369, z: 0.92331874}
+        inSlope: {x: 0.01775536, y: -0.037267096, z: -0.006256437}
+        outSlope: {x: 0.01775681, y: -0.0372906, z: -0.006264805}
+        tangentMode: 0
+      - time: 1.5
+        value: {x: -0.112978354, y: 1.1210108, z: 0.8974594}
+        inSlope: {x: 0.07143483, y: -0.517551, z: -0.08688509}
+        outSlope: {x: 0.07142961, y: -0.51751864, z: -0.08689611}
+        tangentMode: 0
+      - time: 1.7083335
+        value: {x: -0.1267217, y: 1.2095236, z: 0.9123179}
+        inSlope: {x: -0.12459944, y: 0.81461954, z: 0.13676043}
+        outSlope: {x: -0.12460461, y: 0.81464547, z: 0.13676244}
+        tangentMode: 0
+      - time: 1.875
+        value: {x: -0.13482808, y: 1.2628607, z: 0.92090726}
+        inSlope: {x: 0.0800663, y: -0.5122077, z: -0.10146063}
+        outSlope: {x: 0.08006232, y: -0.5121839, z: -0.101439804}
+        tangentMode: 0
+      - time: 2.0416667
+        value: {x: -0.11290623, y: 1.1224747, z: 0.89309883}
+        inSlope: {x: 0.08005778, y: -0.51281744, z: -0.10159025}
+        outSlope: {x: 0.08006019, y: -0.51283824, z: -0.10159544}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0.111, y: 1.1102635, z: 0.89067996}
+        inSlope: {x: 0.023530299, y: -0.15073365, z: -0.029858315}
+        outSlope: {x: 0.023530299, y: -0.15073365, z: -0.029858315}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead/jAfro_3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: powerups/hoverBoard
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_L/jKnee_L/jFoot_L/jToes_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLeg_R/jKnee_R/jFoot_R/jToes_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_R/jElbow_R/jHand_R
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jShoulder_L/jElbow_L/jHand_L
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 2.3841858E-07
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2.0833333
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead/jAfro_3
+  m_FloatCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: -0.061834335, y: 5.5087914, z: -0.9853058}
+    m_Extent: {x: 4.3960233, y: 5.88567, z: 3.4063492}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

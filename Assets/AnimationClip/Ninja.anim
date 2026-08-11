@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ninja
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.4758118, y: -0.046903048, z: 0.08929132, w: 0.8737451}
+        inSlope: {x: -5.734801, y: 0.8875732, z: -0.9894352, w: 2.3518755}
+        outSlope: {x: -5.734801, y: 0.8875732, z: -0.9894352, w: 2.3518755}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.24641979, y: -0.011400121, z: 0.049713913, w: 0.9678201}
+        inSlope: {x: -5.947648, y: 0.5862881, z: -1.1161416, w: 1.5781864}
+        outSlope: {x: -5.947648, y: 0.5862881, z: -1.1161416, w: 1.5781864}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -6.160495, y: 0.28500304, z: -1.2428479, w: 0.8044973}
+        outSlope: {x: -6.160495, y: 0.28500304, z: -1.2428479, w: 0.8044973}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.10676503, y: 1.645821, z: -0.13632827}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

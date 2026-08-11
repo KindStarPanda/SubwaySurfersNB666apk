@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1958400772973822
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4459064008971623}
+  - 114: {fileID: 114562488571795637}
+  - 33: {fileID: 33815363473837185}
+  - 23: {fileID: 23597198641112099}
+  m_Layer: 0
+  m_Name: Default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459064008971623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958400772973822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114562488571795637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958400772973822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7085b527947a953c8305086568d1d4b0, type: 3}
+  m_Name:
+  defaultHoverboardAnimation: {fileID: 7400000, guid: 0d0ed0a087fa5c745a34d3d836fffb98, type: 2}
+  runAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 0d0ed0a087fa5c745a34d3d836fffb98, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 0d0ed0a087fa5c745a34d3d836fffb98, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 83277421670de7c4d80413b51bdd02a0, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  landAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: e83a0e5aabaa5fd4fa75985e37cce97d, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  jumpAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: bd9c09d26274c2a47827fee6e6fba7ac, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 79cdb27eb14b8c54c97d200aa6986a48, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: c93831a574ab4b44d802e082390f3647, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 6f8ff863d97477047a18e8c80dbb2c23, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: df61279755388f54682a5dfd9f508014, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 952e3ec06b8c76143a9225a3852c41e2, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7d1ae47b95bd65148aeab7fea2c875aa, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7955be6e822544d4ca6f8d4809fff10f, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 8e6635b522630114f82e67328b9146fd, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 93eb3e631ebc82847ac34715b2ca8f86, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 8b247db411e13094389a6e3d0924f176, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: e7bb358102465c940a9574e5d2304357, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: de6115390ca1c6e42b97a3b0a05d3b9a, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: daa93b82583105844b7b94c58ac4c0f7, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: daa93b82583105844b7b94c58ac4c0f7, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: e7bb358102465c940a9574e5d2304357, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  hangtimeAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 72f2aaecf63c8da4fbb247ae25c881a9, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 79cdb27eb14b8c54c97d200aa6986a48, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: c93831a574ab4b44d802e082390f3647, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 6f8ff863d97477047a18e8c80dbb2c23, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: df61279755388f54682a5dfd9f508014, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 952e3ec06b8c76143a9225a3852c41e2, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7d1ae47b95bd65148aeab7fea2c875aa, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7955be6e822544d4ca6f8d4809fff10f, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 8e6635b522630114f82e67328b9146fd, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 93eb3e631ebc82847ac34715b2ca8f86, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 8b247db411e13094389a6e3d0924f176, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: e7bb358102465c940a9574e5d2304357, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: de6115390ca1c6e42b97a3b0a05d3b9a, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: daa93b82583105844b7b94c58ac4c0f7, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: daa93b82583105844b7b94c58ac4c0f7, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: e7bb358102465c940a9574e5d2304357, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  rollAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 8486129ea3f4ae84eb46e66044fc41e0, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  dodgeLeftAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 32d2ec5ad60de0842a8752262f86dbe2, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  dodgeRightAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: fe8f18ed91d7f1b489fc494c19d2684c, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  grindAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 40ff691859e102b4b95b438280e096c4, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7382be4cdca21a449ab900439df21e43, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: ff89e70dc1a5a814ca5e637c93f0cb65, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  grindLandAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 5dcda9c153ad14e40aa28723e6c4efb9, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: aec8d707bf96f8b4facd471f14174115, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 7c7545c0ba099d24b94f316249321f12, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  getOnBoardAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 5dba5c87395c14b449c046fe5f902c2b, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+--- !u!33 &33815363473837185
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958400772973822}
+  m_Mesh: {fileID: 4300000, guid: c036a1d8c9f82ff4a8772f51e4890127, type: 2}
+--- !u!23 &23597198641112099
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1958400772973822}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 4a0b0174e014f504f8a1d278682f3b6d, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1958400772973822}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

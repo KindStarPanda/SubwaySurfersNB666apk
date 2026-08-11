@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Brody
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.38540792, y: 0.09287136, z: -0.16785382, w: 0.9025856}
+        inSlope: {x: -4.6323485, y: -1.5483514, z: 2.0251238, w: 1.8209934}
+        outSlope: {x: -4.6323485, y: -1.5483514, z: 2.0251238, w: 1.8209934}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.20011398, y: 0.030937307, z: -0.08684886, w: 0.97542536}
+        inSlope: {x: -4.8175993, y: -1.160892, z: 2.0981727, w: 1.2176797}
+        outSlope: {x: -4.8175993, y: -1.160892, z: 2.0981727, w: 1.2176797}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -5.0028496, y: -0.7734327, z: 2.1712215, w: 0.61436594}
+        outSlope: {x: -5.0028496, y: -0.7734327, z: 2.1712215, w: 0.61436594}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.12447396, y: 1.6502957, z: -0.04748228}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

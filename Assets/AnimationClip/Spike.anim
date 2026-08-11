@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Spike
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.32061046, y: 0.12885375, z: -0.21139534, w: 0.9142853}
+        inSlope: {x: -3.7968957, y: -1.9819812, z: 2.6445336, w: 1.6111717}
+        outSlope: {x: -3.7968957, y: -1.9819812, z: 2.6445336, w: 1.6111717}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.16873464, y: 0.049574513, z: -0.105614, w: 0.97873217}
+        inSlope: {x: -4.007631, y: -1.610672, z: 2.6424417, w: 1.0714338}
+        outSlope: {x: -4.007631, y: -1.610672, z: 2.6424417, w: 1.0714338}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -4.218366, y: -1.2393628, z: 2.64035, w: 0.5316958}
+        outSlope: {x: -4.218366, y: -1.2393628, z: 2.64035, w: 0.5316958}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.11657427, y: 1.6967206, z: 0.12607054}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

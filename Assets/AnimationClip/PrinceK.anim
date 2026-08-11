@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PrinceK
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.4269944, y: -0.038878333, z: -0.031528044, w: 0.9028678}
+        inSlope: {x: -5.2141666, y: 0.23486419, z: 0.1335627, w: 1.8047065}
+        outSlope: {x: -5.2141666, y: 0.23486419, z: 0.1335627, w: 1.8047065}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.21842775, y: -0.029483765, z: -0.026185537, w: 0.97505605}
+        inSlope: {x: -5.33743, y: 0.48597917, z: 0.39410055, w: 1.2141526}
+        outSlope: {x: -5.33743, y: 0.48597917, z: 0.39410055, w: 1.2141526}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -5.460694, y: 0.73709416, z: 0.6546384, w: 0.6235987}
+        outSlope: {x: -5.460694, y: 0.73709416, z: 0.6546384, w: 0.6235987}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

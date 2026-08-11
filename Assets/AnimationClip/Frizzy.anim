@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Frizzy
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.45926103, y: -0.23607416, z: 0.07715858, w: 0.85287446}
+        inSlope: {x: -5.467806, y: 2.3869717, z: -1.9098685, w: 2.6881442}
+        outSlope: {x: -5.467806, y: 2.3869717, z: -1.9098685, w: 2.6881442}
+        tangentMode: 0
+      - time: 0.04
+        value: {x: 0.2405488, y: -0.1405953, z: 0.0007638432, w: 0.9604002}
+        inSlope: {x: -5.7407627, y: 2.9509273, z: -0.9644823, w: 1.8390694}
+        outSlope: {x: -5.7407627, y: 2.9509273, z: -0.9644823, w: 1.8390694}
+        tangentMode: 0
+      - time: 0.08
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: -6.01372, y: 3.5148826, z: -0.01909608, w: 0.9899944}
+        outSlope: {x: -6.01372, y: 3.5148826, z: -0.01909608, w: 0.9899944}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: gSkeleton_game/jRoot/jLowerSpine/jHead
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_SampleRate: 25
+  m_WrapMode: 8
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zoe_blink
+  m_SubMeshes:
+  - firstByte: 0
+    indexCount: 70
+    isTriStrip: 2
+    triangleCount: 36
+    firstVertex: 0
+    vertexCount: 34
+    localAABB:
+      m_Center: {x: -0.575465, y: 7.9407043, z: 1.3512514}
+      m_Extent: {x: 0.401528, y: 0.3221197, z: 0.24439675}
+  m_MeshCompression: 0
+  m_IndexBuffer: 0800020001000000000009000900050006000400040010001000100018000b0013000c00150015000b000b000b0010000a000f001900120012001f001f001e001a001500110007001700030014000d0016000e001200120016001600160012001d0021001c0020001f001f001a001a001a0011001b0017001c0014001d00160016001a001a001b001f001c00
+  m_Skin: []
+  m_BindPose: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 34
+    m_Streams[0]:
+      channelMask: 9
+      offset: 0
+      stride: 20
+      align: 16
+    m_Streams[1]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_Streams[2]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_Streams[3]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_DataSize: 680
+    _typelessdata: 8fa93cbf08b8f9406274b73f325a8d3e72af083f371c7abf8a9ef9403816a03fcacf8f3e64510c3f99f357bf6998fb403fd7a83fc0d1903eb35a0a3fa4ae1abf87340441333ecc3f3682d83e2a90c23e90a93cbf08b8f9406374b73f325a8d3e72af083f371c7abfb09ff9403816a03fcacf8f3e64510c3f99f357bf9199fb403fd7a83fc0d1903eb35a0a3f005f94be73f10241ad89ca3ff131ba3e37e9ba3ef1105ebfdd2a00414ed69a3f1826943e387e0b3ff1105ebf712b00414ed69a3f1826943e387e0b3f495e5abf810ef540980a9e3fda39f73e80f06e3e77fa22bf72cbf340185bb23fcc27d73ea004703e6d12b4be1acff540af58b63fdc76b83e0025843e9d385cbf3c880241ee24ad3f1863f83ef59bba3e283569bf046b0141014f993f4e62043f110da63e99f357bffd98fb4040d7a83f0a3ef53e3f2f873e8fa93cbf08b8f9406374b73f3cd2e33e2f50863ec285c2be419600418312c53f5b55c03e5c2cb03ef1105ebf272b00414ed69a3f949d053f3edd8c3e5bffcdbe5e39f9408029c03fe637c03e82838c3e7d2e46bf0e790141d4f7bd3f22a4f33ec1c0b73e8a1c32be214dfb4082fabd3fdc5bad3e24bc963ee2775dbf92ec0041b9faab3ffaf2013fb8a5a53e06bb13bf06260141e5e0c63f6968d73ee641bc3e383616bf6a13f9400039c13f1cc4d23e9c8f873ec1156fbfdd64f9406aad8d3f49b0063f7c697a3e5ab4c6be63e2fa401f1dc53f55c9c23ed46caf3e912816bf1367fb409296c63f10b7d73e8674bb3e369d49bfb8f1fb40e227bd3f935af23e9684b53e967960bf8e28fd4092a7ad3fec49003f8ceaa33e5bffcdbe5e39f9408029c03f3290c53e975ba23e383616bf6a13f9400039c13f2901d73e1064a53e8fa93cbf08b8f9406374b73f0838e73e6dfca53e99f357bffd98fb4040d7a83fe2cff93e2c8a9a3e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Colors:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center: {x: -0.575465, y: 7.9407043, z: 1.3512514}
+    m_Extent: {x: 0.401528, y: 0.3221197, z: 0.24439675}
+  m_MeshUsageFlags: 0
+  m_MeshOptimized: 1

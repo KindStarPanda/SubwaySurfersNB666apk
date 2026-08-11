@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: I
+  m_SubMeshes:
+  - firstByte: 0
+    indexCount: 50
+    isTriStrip: 2
+    triangleCount: 36
+    firstVertex: 0
+    vertexCount: 42
+    localAABB:
+      m_Center: {x: -4.7683716E-07, y: 0, z: -0.6777891}
+      m_Extent: {x: 1.7856526, y: 3.3914795, z: 1.6777891}
+  m_MeshCompression: 0
+  m_IndexBuffer: 0e000f000d000c000b0009000a00080008002100210013001e0012001f0010001c0011001d00200020001a001a001b0019001800170015001600140014000500050022000300240002002500000026000100280004002700070029000600230005002200
+  m_Skin: []
+  m_BindPose: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 42
+    m_Streams[0]:
+      channelMask: 9
+      offset: 0
+      stride: 20
+      align: 16
+    m_Streams[1]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_Streams[2]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_Streams[3]:
+      channelMask: 0
+      offset: 0
+      stride: 0
+      align: 16
+    m_DataSize: 840
+    _typelessdata: 40b83ebf000e59400000803fe834963d131d1d3e4890e4bf802a3040809b7c3ff834963ddb941a3e4040b73f000e5940009c7c3ff034963d8a1a1d3e2090e43f00d03a40009b7c3ff034963ddb941a3e4090e4bf80663ec0509b7c3fe834963d60da153e3090e43f00773ec0509b7c3ff034963d4f2e163ee0fc8b3f000e59c0509b7c3ff034963dc4f3153ec8d5a7bfc08257c0409b7c3fe834963d9c97153e1d7b47be1f901c40cbc116c07ed5353f4cfac53e02b559bf9ec30640cbc116c01fef363f4abec53e33306e3f1f901c40cbc116c08afd343f644ac43e052d903f7dd01340cbc116c07716353f1c82c33e02b559bfd09c1ac0cbc116c0a7033f3f3b95b53e052d903f6ea91ac0cbc116c09f883d3fcb9db23e06595d3f4e8d24c0cbc116c08e013e3fdb74b23e148835bfd53623c0cbc116c009263f3f07e4b43e1aa8cdbe11d92a40cbc116c0df7d3c3f87d6ab3e1dc3673f4c372740cbc116c0483f3c3fdcd6ab3e38a08ebf472a1040cbc116c004a03c3fedd8ab3e78ec81bf64341ac0cbc116c0429b3c3fc7f3ab3e40b83ebf000e5940709b7cbfc85b9e3d0fbc1c3e4090e4bf802a3040709b7cbf88e89c3d30931c3e4040b73f000e5940709b7cbf2864a13d0fbc1c3e4090e43f00d03a40709b7cbf70e2a13dd39d1c3e4090e4bf80663ec0709b7cbf88e89c3dcf241b3e3090e43f00773ec0709b7cbf70e2a13dbc241b3ee0fc8b3f000e59c0709b7cbf98eba03d2d0a1b3ed0d5a7bfc08257c0809b7cbfd8919d3db60b1b3e1d7b47be1f901c40cbc116c0f8733c3fd2d7ab3e33306e3f1f901c40cbc116c0143e3c3fd2d7ab3e02b559bfd09c1ac0cbc116c060933c3fcff3ab3e02b559bf9ec30640cbc116c060933c3fc7d9ab3e052d903f7dd01340cbc116c0b3343c3f9ad8ab3e148835bfd53623c0cbc116c09e8c3c3f96f4ab3e4090e43f00d03a40709b7cbf6858aa3ddb941a3e3090e43f00773ec0709b7cbf6858aa3d4f2e163e4040b73f000e5940709b7cbf6858aa3d8a1a1d3e40b83ebf000e5940709b7cbf6058aa3d111d1d3e4090e4bf802a3040709b7cbf6858aa3ddb941a3ed0d5a7bfc08257c0809b7cbf6058aa3d9997153e4090e4bf80663ec0709b7cbf6058aa3d5fda153ee0fc8b3f000e59c0709b7cbf6858aa3dc5f3153e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Colors:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center: {x: -4.7683716E-07, y: 0, z: -0.6777891}
+    m_Extent: {x: 1.7856526, y: 3.3914795, z: 1.6777891}
+  m_MeshUsageFlags: 0
+  m_MeshOptimized: 1

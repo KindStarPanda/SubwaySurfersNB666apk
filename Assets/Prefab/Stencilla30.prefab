@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1085352633239968
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4258602541462123}
+  - 114: {fileID: 114470302681818438}
+  m_Layer: 0
+  m_Name: Stencilla30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4258602541462123
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085352633239968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114470302681818438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085352633239968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
+  m_Name:
+  mMat: {fileID: 2100000, guid: 4d0ba512fac8e9747b91ccebabdb4db0, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: -0.015625
+    y: -0.4296875
+    width: 1
+    height: 1
+  mFont:
+    mGlyphs: []
+    mSize: 36
+    mBase: 28
+    mWidth: 128
+    mHeight: 128
+    mSpriteName: Stencilla30
+    mSaved:
+    - index: 83
+      x: 2
+      y: 2
+      width: 21
+      height: 25
+      offsetX: -2
+      offsetY: 6
+      advance: 20
+      channel: 0
+    - index: 48
+      x: 23
+      y: 2
+      width: 20
+      height: 24
+      offsetX: -3
+      offsetY: 7
+      advance: 18
+      channel: 0
+    - index: 53
+      x: 43
+      y: 2
+      width: 20
+      height: 24
+      offsetX: -3
+      offsetY: 7
+      advance: 18
+      channel: 0
+    - index: 56
+      x: 63
+      y: 2
+      width: 20
+      height: 24
+      offsetX: -3
+      offsetY: 7
+      advance: 18
+      channel: 0
+    - index: 51
+      x: 83
+      y: 2
+      width: 19
+      height: 24
+      offsetX: -3
+      offsetY: 7
+      advance: 18
+      channel: 0
+    - index: 54
+      x: 102
+      y: 2
+      width: 17
+      height: 24
+      offsetX: -3
+      offsetY: 7
+      advance: 18
+      channel: 0
+    - index: 57
+      x: 2
+      y: 27
+      width: 17
+      height: 26
+      offsetX: -1
+      offsetY: 5
+      advance: 18
+      channel: 0
+    - index: 52
+      x: 19
+      y: 27
+      width: 21
+      height: 25
+      offsetX: -4
+      offsetY: 5
+      advance: 18
+      channel: 0
+    - index: 50
+      x: 40
+      y: 27
+      width: 19
+      height: 25
+      offsetX: -3
+      offsetY: 5
+      advance: 18
+      channel: 0
+    - index: 55
+      x: 59
+      y: 27
+      width: 19
+      height: 25
+      offsetX: -3
+      offsetY: 5
+      advance: 18
+      channel: 0
+    - index: 49
+      x: 78
+      y: 27
+      width: 14
+      height: 25
+      offsetX: 0
+      offsetY: 5
+      advance: 18
+      channel: 0
+    - index: 111
+      x: 92
+      y: 27
+      width: 22
+      height: 22
+      offsetX: -4
+      offsetY: 9
+      advance: 19
+      channel: 0
+    - index: 99
+      x: 2
+      y: 53
+      width: 19
+      height: 20
+      offsetX: -2
+      offsetY: 9
+      advance: 18
+      channel: 0
+    - index: 101
+      x: 21
+      y: 53
+      width: 21
+      height: 20
+      offsetX: -4
+      offsetY: 9
+      advance: 19
+      channel: 0
+    - index: 114
+      x: 42
+      y: 53
+      width: 14
+      height: 20
+      offsetX: -3
+      offsetY: 9
+      advance: 11
+      channel: 0
+    - index: 32
+      x: 56
+      y: 53
+      width: 0
+      height: 0
+      offsetX: -2
+      offsetY: 148
+      advance: 8
+      channel: 0
+    mSymbols: []
+  mSpacingX: 0
+  mSpacingY: 0
+  mAtlas: {fileID: 114070078608029516, guid: a727731b4a33f98488d6c34ac9ccb80e, type: 2}
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1085352633239968}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

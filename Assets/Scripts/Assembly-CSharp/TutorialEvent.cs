@@ -1,0 +1,104 @@
+using System.Collections;
+using UnityEngine;
+
+public class TutorialEvent : MonoBehaviour
+{
+	private Game game;
+
+	[SerializeField]
+	private bool displayText;
+
+	[SerializeField]
+	private string text;
+
+	[SerializeField]
+	private bool displayMesh;
+
+	[SerializeField]
+	private float direction;
+
+	[SerializeField]
+	private float time = 1f;
+
+	[SerializeField]
+	private bool endTutorial;
+
+	[SerializeField]
+	private bool allowHoverboard;
+
+	private Hoverboard hoverboard;
+
+	private Character character;
+
+	private Track track;
+
+	private bool Initialiseret;
+
+	private GameObject _mesh;
+
+	private GameObject mesh
+	{
+		get
+		{
+			if (_mesh == null)
+			{
+				_mesh = Camera.main.gameObject.transform.Find("arrow").gameObject;
+			}
+			return _mesh;
+		}
+	}
+
+	private void Awake()
+	{
+		game = Game.Instance;
+		hoverboard = Hoverboard.Instance;
+	}
+
+	private void Update()
+	{
+		if (!(game == null) && !Initialiseret)
+		{
+			character = game.character;
+			track = game.track;
+			Initialiseret = true;
+		}
+	}
+
+	private IEnumerator ShowArrow()
+	{
+		mesh.transform.rotation = Quaternion.AngleAxis(direction, new Vector3(0f, 0f, 1f)) * Quaternion.Euler(0f, 180f, 0f);
+		mesh.active = true;
+		Vector3 pos = new Vector3(0f, 0f, 20f);
+		yield return StartCoroutine(pTween.To(time, delegate(float t)
+		{
+			mesh.transform.localPosition = Vector3.Lerp(pos - mesh.transform.up * 5f, pos + mesh.transform.up * 5f, t);
+			mesh.GetComponent<Renderer>().material.mainTextureOffset = Vector2.Lerp(Vector2.zero, new Vector2(0f, -0.035f), t);
+		}));
+		mesh.active = false;
+	}
+
+	private void OnTriggerExit(Collider collider)
+	{
+		if (!character.stopColliding && collider.gameObject.name.Equals("Character"))
+		{
+			if (displayText)
+			{
+				UIScreenController.Instance.QueueMessage(text);
+			}
+			if (displayMesh)
+			{
+				StartCoroutine(ShowArrow());
+			}
+			if (allowHoverboard)
+			{
+				hoverboard.isAllowed = true;
+			}
+			if (endTutorial)
+			{
+				track.IsRunningOnTutorialTrack = false;
+				PlayerInfo.Instance.tutorialCompleted = true;
+				track.tutorial = false;
+			}
+		}
+	}
+}

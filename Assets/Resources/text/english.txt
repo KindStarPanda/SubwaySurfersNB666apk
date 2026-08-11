@@ -1,0 +1,80 @@
+[MISSIONS_EARNCOIN_DESC_SINGLE]
+Collect {0} coin. {1} left
+
+[MISSIONS_EARNCOIN_DESC]
+Collect {0} coins. {1} left
+
+[MISSIONS_EARNCOIN_ULTRAS_DESC_SINGLE]
+Collect {0} coin
+
+[MISSIONS_EARNCOIN_ULTRAS_DESC]
+Collect {0} coins
+
+
+[POPUP_PAYOUT_FACEBOOK_TITLE]
+Congratulations
+
+[POPUP_PAYOUT_FACEBOOK_DESC]
+You have connected to Facebook and have been awarded {0} coins!
+
+[POPUP_PAYOUT_GAMECENTER_TITLE]
+Congratulations
+
+[POPUP_PAYOUT_GAMECENTER_DESC]
+You have logged into Game Center and have been awarded {0} coins!
+
+[CHANGELOG_THEME_POPUP_TOPTITLE]
+Happy
+
+[CHANGELOG_THEME_POPUP_CENTTITLE]
+Holidays!
+
+[CHANGELOG_THEME_POPUP_BOTTITLE]
+
+
+[CHANGELOG_THEME_POPUP_LINE1BIG]
+Enjoy the Winter Wonderland!
+
+[CHANGELOG_THEME_POPUP_LINE1SMALL]
+Subway Surfers in the SNOW
+
+[CHANGELOG_THEME_POPUP_LINE2BIG]
+Get Elf Tricky!
+
+[CHANGELOG_THEME_POPUP_LINE2SMALL]
+Available for a LIMITED time
+
+[CHANGELOG_THEME_POPUP_LINE3BIG]
+Discover SPECIAL BOARDS!
+
+[CHANGELOG_THEME_POPUP_LINE3SMALL]
+Get a FREE GIFT to get started
+
+[CHANGELOG_THEME_POPUP_BUTTON]
+OK
+
+[CHANGELOG_POPUP_TITLE]
+Thanks\nfor\nUpdating!
+
+[CHANGELOG_POPUP_TEXT]
+NEW STUFF:\n* Discover SPECIAL Boards!\n* Experience new POWERS!\n*Surf with STYLE!\n* Get a free gift to get started!
+
+[CHANGELOG_POPUP_BUTTON]
+OK
+
+[SEASON_BUTTON_TITLE]
+Holiday theme {0}
+
+[SEASON_BUTTON_DESCRIPTION]
+Disable/Enable\nHoliday theme
+
+[ON]
+ON
+[OFF]
+OFF
+
+[SLIDEIN_RESTORE_NO_PREVIOUS_PURCHASES]
+No previous \npurchase found
+
+[SLIDEIN_RESTORE_NETWORK_PROBLEM]
+Check your \nInternet connection
