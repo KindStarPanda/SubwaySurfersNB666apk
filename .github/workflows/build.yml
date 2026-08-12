@@ -27,10 +27,9 @@ jobs:
           targetPlatform: Android
           unityVersion: 2022.3.62f1
           buildsPath: build
-          customParameters: -androidArch ARM64
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: AndroidBuild-Mono-ARM64
+          name: AndroidBuild-Mono
           path: build/Android/*.apk
