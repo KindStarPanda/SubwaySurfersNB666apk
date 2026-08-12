@@ -27,8 +27,8 @@ jobs:
           targetPlatform: Android
           unityVersion: 2022.3.62f1
           buildsPath: build
-          cleanBuild: true
-          customParameters: -nographics -silent-crashes -batchmode
+          # 移除了 cleanBuild 和 customParameters
+          # 让 unity-builder 使用它自己的默认构建参数
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
