@@ -1,4 +1,4 @@
-name: Build Android APK
+name: Build Android APK (Mono)
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build for Android
+    name: Build for Android (Mono)
     runs-on: ubuntu-latest
 
     steps:
@@ -15,11 +15,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+          fetch-depth: 0
 
-      - name: Build Android
+      - name: Build Android (Mono)
         uses: game-ci/unity-builder@v4
         env:
-          # 个人版需要这三个环境变量
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
@@ -27,9 +27,11 @@ jobs:
           targetPlatform: Android
           unityVersion: 2022.3.62f1
           buildsPath: build
+          cleanBuild: true
+          customParameters: -nographics -silent-crashes -batchmode
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: AndroidBuild
+          name: AndroidBuild-Mono
           path: build/Android/*.apk
