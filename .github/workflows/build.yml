@@ -27,11 +27,10 @@ jobs:
           targetPlatform: Android
           unityVersion: 2022.3.62f1
           buildsPath: build
-          # 移除了 cleanBuild 和 customParameters
-          # 让 unity-builder 使用它自己的默认构建参数
+          customParameters: -androidArch ARM64
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: AndroidBuild-Mono
+          name: AndroidBuild-Mono-ARM64
           path: build/Android/*.apk
