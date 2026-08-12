@@ -11,31 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 拉取代码
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           lfs: true
 
-      # 2. 用 Unity 官方命令行激活许可证
-      - name: Activate Unity
-        run: |
-          unity-editor \
-            -username "${{ secrets.UNITY_EMAIL }}" \
-            -password "${{ secrets.UNITY_PASSWORD }}" \
-            -quit \
-            -batchmode \
-            -logFile /dev/stdout
-
-      # 3. 执行构建
       - name: Build Android
         uses: game-ci/unity-builder@v4
+        env:
+          # 个人版需要这三个环境变量
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: Android
           unityVersion: 2022.3.62f1
           buildsPath: build
 
-      # 4. 上传 APK
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
